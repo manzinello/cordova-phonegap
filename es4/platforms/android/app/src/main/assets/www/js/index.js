@@ -16,30 +16,47 @@
  * specific language governing permissions and limitations
  * under the License.
  */
+
+const SCATTA = "scatta";
+const APRI = "apri";
+
 var app = {
+
     // Application Constructor
-    initialize: function() {
+    initialize: function () {
         document.addEventListener('deviceready', this.onDeviceReady.bind(this), false);
     },
 
-    // deviceready Event Handler
-    //
-    // Bind any cordova events here. Common events are:
-    // 'pause', 'resume', etc.
-    onDeviceReady: function() {
-        this.receivedEvent('deviceready');
+    onDeviceReady: function () {
+        select = document.getElementById('select');
+        button = document.getElementById('button');
+        button.addEventListener('click', this.snapPhoto, false);
     },
 
-    // Update DOM on a Received Event
-    receivedEvent: function(id) {
-        var parentElement = document.getElementById(id);
-        var listeningElement = parentElement.querySelector('.listening');
-        var receivedElement = parentElement.querySelector('.received');
+    snapPhoto: function () {
 
-        listeningElement.setAttribute('style', 'display:none;');
-        receivedElement.setAttribute('style', 'display:block;');
+        var options = {
+            quality: 50,
+            destinationType: Camera.DestinationType.FILE_URI
+        }
 
-        console.log('Received Event: ' + id);
+        if (select.value == SCATTA) {
+            options.sourceType = Camera.PictureSourceType.CAMERA;
+        } else if (select.value == APRI) {
+            options.sourceType = Camera.PictureSourceType.PHOTOLIBRARY;
+        }
+
+        function onSuccess(imageURI) {
+            var image = document.getElementById('image');
+            image.src = imageURI;
+        }
+
+        function onFail(message) {
+            alert('Failed because: ' + message);
+        }
+
+        navigator.camera.getPicture(onSuccess, onFail, options);
+
     }
 };
 

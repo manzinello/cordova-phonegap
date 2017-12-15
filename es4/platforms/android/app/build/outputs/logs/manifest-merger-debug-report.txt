@@ -1,13 +1,25 @@
 -- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:12:127-181
 manifest
-ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
+ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+MERGED from [com.android.support:support-v4:24.1.1] /Users/matteo/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/5ebaba4dc6c30f788f17b62889c4ca1c/AndroidManifest.xml:17:1-27:12
 MERGED from [:CordovaLib] /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:20:1-27:12
-INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
-INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-14:12
+INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
+INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:1-18:12
 	package
 		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:2:102-130
 		INJECTED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml
@@ -43,7 +55,9 @@ ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/
 	android:name
 		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:4:22-64
 application
-ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:5:5-12:19
+ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:5:5-15:19
+MERGED from [com.android.support:support-v4:24.1.1] /Users/matteo/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/5ebaba4dc6c30f788f17b62889c4ca1c/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.1.1] /Users/matteo/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/5ebaba4dc6c30f788f17b62889c4ca1c/AndroidManifest.xml:25:5-20
 	android:supportsRtl
 		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:5:114-140
 	android:label
@@ -79,10 +93,24 @@ ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/
 	android:name
 		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:9:27-74
 uses-sdk
-ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:13:5-74
+ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:16:5-74
+MERGED from [com.android.support:support-v4:24.1.1] /Users/matteo/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/5ebaba4dc6c30f788f17b62889c4ca1c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.1.1] /Users/matteo/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/5ebaba4dc6c30f788f17b62889c4ca1c/AndroidManifest.xml:21:5-23:54
 MERGED from [:CordovaLib] /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
 MERGED from [:CordovaLib] /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/CordovaLib/build/intermediates/manifests/full/debug/AndroidManifest.xml:25:5-44
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.1.1] /Users/matteo/.gradle/caches/transforms-1/files-1.1/support-v4-24.1.1.aar/5ebaba4dc6c30f788f17b62889c4ca1c/AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:13:42-71
+		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:16:42-71
 	android:minSdkVersion
-		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:13:15-41
+		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:16:15-41
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:17:22-78
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:13:13-116
+	android:resource
+		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:13:75-113
+	android:name
+		ADDED from /Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/src/main/AndroidManifest.xml:13:24-74

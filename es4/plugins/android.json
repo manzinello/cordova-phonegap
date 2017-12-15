@@ -9,6 +9,9 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.manzinello.es4"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.manzinello.es4"
     }
   },
   "dependent_plugins": {}
