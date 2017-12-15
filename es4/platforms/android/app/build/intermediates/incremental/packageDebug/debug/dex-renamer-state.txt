@@ -1,0 +1,4 @@
+#Fri Dec 15 14:49:37 CET 2017
+base.0=/Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Users/matteo/cordova/cordova+phonegap/es4/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

@@ -10,7 +10,7 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
-    "cordova-android": "^6.4.0",
+    "cordova-android": "^7.0.0",
     "cordova-plugin-splashscreen": "^4.1.0",
     "cordova-plugin-statusbar": "^2.3.0",
     "cordova-plugin-whitelist": "1"
@@ -20,6 +20,9 @@
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-statusbar": {},
       "cordova-plugin-whitelist": {}
-    }
+    },
+    "platforms": [
+      "android"
+    ]
   }
 }
