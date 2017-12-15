@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+  <meta name="description" content="Un'app per la gestione di un orologio">
+  <meta name="author" content="Matteo Manzinello">
+  <link rel="icon" href="img/favicon.ico">
+
+  <title>Clock</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <button id="orologiobutton" type="button" class="btn btn-primary">Orologio</button>
+    <button id="allarmebutton" type="button" class="btn btn-danger">Allarme</button>
+
+    <div class="main-content">
+
+      <div id="orologio" style="display: block;">
+        <h1>Orologio</h1>
+        <div class="row">
+          <div class="col-4">
+            <div class="orologio-box">
+              <p id="ore" class="orologio-text">00</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="orologio-box">
+              <p id="minuti" class="orologio-text">00</p>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="orologio-box">
+              <p id="secondi" class="orologio-text">00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="allarme" style="display: none;">
+        <h1>Allarme</h1>
+        <div class="row">
+          <div class="col-6">
+            <button id="aumenta-ore" type="button" class="btn btn-default btn-block">+</button>
+            <div class="orologio-box">
+              <p id="allarme-ore" class="orologio-text">00</p>
+            </div>
+            <button id="diminuisci-ore" type="button" class="btn btn-default btn-block">-</button>
+          </div>
+          <div class="col-6">
+            <button id="aumenta-minuti" type="button" class="btn btn-default btn-block">+</button>
+            <div class="orologio-box">
+              <p id="allarme-minuti" class="orologio-text">00</p>
+            </div>
+            <button id="diminuisci-minuti" type="button" class="btn btn-default btn-block">-</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>

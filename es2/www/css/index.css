@@ -1,0 +1,21 @@
+body {
+  padding-top: 20px;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.orologio-text {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.orologio-box {
+  background: black;
+  border-radius: 8px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
